@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<!--STYLESHEET-->
+	<link rel='stylesheet' href='css/style.css'>
+	<!--FONT-AWESOME-->
+	<script src="https://kit.fontawesome.com/897c062b7b.js" crossorigin="anonymous"></script>
+	<!--BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Raflix</title>
+</head>
+<body>
+	<header class='topheader' id='inicio'>
+	<!--NAVBAR-->
+	<div class='container' id='nav-container'>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+			<a class="navbar-brand" href="https://fontmeme.com/netflix-font/"><img id='logo' src="https://fontmeme.com/permalink/200907/f669dfabe69ad09cba43115e28c90f2a.png" alt="Raflix" border="0">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	<div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+		<ul class="navbar-nav">
+				<a class="nav-item nav-link" id='home-menu' href="#inicio">Início</a>
+		
+				<a class="nav-item nav-link" id='about-menu' href="#sobre">Sobre</a>
+			
+				<a class="nav-item nav-link" id='news-menu' href="#noticias">News</a>
+			
+				<a class="nav-item nav-link" id='highlights-menu' href="#destaques">Destaques</a>
+			
+				<a class="nav-item nav-link" id='comeSoon-menu' href="#chegando">Tá chegando</a>
+		
+		</ul>
+	</div>
+	</nav>
+	</div>
+	</header>
+	<!--CAROUSEL-->
+	<main>
+	<div id="mainSlider" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+			<li data-target="#mainSlider" data-slide-to="1"></li>
+			<li data-target="#mainSlider" data-slide-to="2"></li>
+		</ol>
+	<div class="carousel-inner">
+    <div class="carousel-item active">
+		<img src="img/maze-runner.png" class="d-block w-100" alt="slide1">
+    </div>
+    <div class="carousel-item">
+		<img src="img/conver.png" class="d-block w-100" alt="slide2">
+    </div>
+    <div class="carousel-item">
+		<img src="img/hp.png" class="d-block w-100" alt="slide3">
+    </div>
+	</div>
+		<a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	</main>
+	
+	<!--ABOUT US-->
+	<section id='sobre'>
+	<div class='about-area'>
+	<div class='container'>
+	<div class='row'>
+	<div class='col-12'>
+		<h2 class='main-title'>Sobre</h2>
+	</div>
+	<div class='col-md-6'>
+		<img class='img-fluid mt-3' src='img/cinema.jpg' alt='imagem-about-cinema'>
+	</div>
+	<div class='col-md-6'>
+		<h2 class='about-title mt-3'>Para os amantes do cinema!</h2>
+			<p class='text-justify'>Raflix é uma plataforma de cinema e séries composto por notícias, curiosidades, lançamentos, jogos e muito mais. Aqui você ficará antenado com tudo que ta rolando no mundo de Hollywood. As possíveis análises e críticas que possam a vir a ter, nada se refere de alguém com vasto conhecimento na área do cinema e sim um admirador da sétima arte mundial. Portanto, se houver posicionamento sobre determinado projeto, deve ser encarado como opinião pessoal. <br><br>Aproveite o conteúdo.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!--NEWS-->
+	<section id='noticias'>
+	<div class='container'>
+	<div class='row' id='news'>
+	<div class='col-12'>
+		<h2 class='main-title'>News</h2>
+	</div>	
+	<div class='col-md-6 mt-3'>
+		<img class='w-100' src='img/matrix.jpg' alt='imagem1'>
+			<h3 class='font-weight-bold mt-3'>Matrix 4</h3>
+				<p class='text-justify'>Em 1999, o mundo conhecia Matrix, que se tornou um clássico instantâneo da ficção científica. Duas sequências surgiram, sem o mesmo sucesso. Cerca de vinte anos depois, a franquia retorna com seu quarto capítulo, novamente estrelado pelo Neo de Keanu Reeves. Grandes mistérios existem ao redor da produção, mas, aos poucos, vamos desvendando essas questões e descobrindo as novidades da saga.</p>
+	</div>
+	<div class='col-md-6 mt-3'>
+		<img class='w-100' src='img/pinoquio.jpg' alt='imagem2'>
+			<h3 class='font-weight-bold mt-3'>Pinóquio em Live-Action</h3>
+				<p class='text-justify'>Este é um ano bom para ser o Pinóquio! Nos meses que virão, sua história ganhará diversas visões diferentes, tendo até mesmo uma delas comandada por Guillermo del Toro. Mas quem fará um filme sombrio e profundo sobre o clássico é o cineasta italiano Matteo Garrone (O Conto dos Contos). Para isso, ele chamou o ator Roberto Benigni, vencedor do Oscar por A Vida É Bela, para interpretar Gepetto no longa.<br><br>
+				Agora, o filme acaba de ganhar seu primeiro trailer e deixa claro que Gepetto sempre foi na verdade um marceneiro solitário que nunca conseguiu realizar seu desejo de ser pai e acabou construindo Pinóquio para satisfazer aquilo que procurava.</p>
+	</div>
+	<div class='col-md-6'>
+		<img class='w-100' src='img/mario.jpg' alt='imagem3'>
+			<h3 class='font-weight-bold mt-3'>Super Mario: O Filme em 2022</h3>
+				<p class='text-justify'>Super Mário, o clássico personagem da Nintendo, está de volta! De acordo com a Corporate Management Policy Briefing, o filme de Super Mario está com lançamento marcado para o ano de 2022. O estúdio Illumination Animation está envolvido na produção, assim como o próprio criador do videogame, Shigeru Miyamoto.<br><br>
+				A possibilidade do lançamento da animação já tinha sido comentada por Chris Meledrandi, CEO da produtora do filme, em entrevista com a Variety em 2018, mas a confirmação oficial veio este ano. Embora o lançamento esteja distante, a pré-produção já está em andamento, com o estúdio trabalhando diretamente com a Nintendo para a realização da adaptação da franquia.</p>
+	</div>
+	<div class='col-md-6'>
+		<img class='w-100' src='img/panico.jpg' alt='imagem4'>
+			<h3 class='font-weight-bold mt-3'>Neve Campbell de volta em Pânico 5</h3>
+				<p class='text-justify'> Pânico 5 promete não decepcionar os fãs da franquia de Wes Craven. Isso porque o novo capítulo será dirigido pela dupla Matt Bettinelli-Olpin e Tyler Gillett, que é responsável por alguns dos filmes de terror mais aclamados dos últimos anos, como Casamento Sangrento e V/H/S. Além disso, os cineastas já estão bem familiarizados com o subgênero slasher, que é o coração da saga Scream.<br><br>
+				E as notícias boas acerca do longa não param de chegar: Neve Campbell também irá retornar para a produção, resgatando ainda mais a aura nostálgica da obra dos anos noventa. Outros nomes que irão voltar para a franquia são Courteney Cox (Gale) e David Arquette (Dewey Riley).</p>
+	</div>
+	</div>
+	</section>	
+	<!--INFOS-->	
+	<section id='destaques'>	
+	<div class='container'>
+	<div class='row'>
+	<div class='col-12'>
+		<h2 class='main-title'>Destaques</h2>
+	</div>	
+	<div class='cards-info col-md-12 d-flex align-items-center justify-content-center mt-3'>
+		<img class='img-dest rounded-circle' src='img/daniel.jpg'>
+	<div class='ml-2 infos'>
+		<h3 class='ml-3 dest-title'>Daniel Radcliffe revela vício durante era Harry Potter</h3>
+			<p class='text-justify ml-3 dest-text'>Daniel Radcliffe deu uma entrevista bastante reveladora ao programa "Off Camera with Sam Jones". Ao contrário do que a galera poderia imaginar, o astro de "Harry Potter" passava boa parte do tempo "bêbado", pois acreditava ser o jeito mais fácil de lidar com a fama e a pressão que sofria. De quebra, o ator ainda mostrou empatia pela luta de Justin Bieber.<br><br>
+			O preço da fama precoce é bastante alto e Daniel Radcliffe sabe bem disso. O ator, conhecido mundialmente pela saga "Harry Potter", cresceu sob olhares e pressões da mídia. Afinal, ser o bruxo mais conhecido do cinema e do universo dos livros não é pouca coisa. Justamente por isso, o protagonista, agora com 29 anos, contou que para lidar com toda essa responsabilidade mantinha-se "bêbado" na maior parte do tempo. Pesado, né?!</p>
+	</div>
+	</div>
+	<div class='cards-info col-md-12 d-flex align-items-center justify-content-center mt-3'>
+		<img class='img-dest rounded-circle' src='img/whoopi.jpg'>
+	<div class='ml-2 infos'>
+		<h3 class='ml-3 dest-title'>Whoopi Goldberg faz pedido à Disney em nome de Chadwick Boseman</h3>
+			<p class='text-justify ml-3 dest-text'>A atriz Whoopi Goldberg pediu, pelo Twitter, que a Disney construa uma atração Wakanda em seus parques. Seu post de domingo, 31, foi feito ainda sob o impacto da morte precoce de Chadwick Boseman, ator que interpretou o super-herói Pantera Negra, e quem ela disse ser uma de suas pessoas preferidas no mundo.<br><br>
+			Wakanda é um país fictício localizado na África presente nas histórias em quadrinhos publicadas pela Marvel Comics. “Pessoas responsáveis por criar novas experiências na Disneyland e na Disney World, nós não precisamos de outro reino de Frozen, mas de Wakanda. Por favor, Disney, construa Wakanda em nome de Chadwick Boseman.<br><br>
+			Chadwick Boseman morreu na sexta-feira, dia 28, aos 43 anos, depois de uma silenciosa luta contra um câncer que durou quatro anos. O ator deu vida ao primeiro super-herói negro do cinema num filme que foi sucesso de crítica e de público e que ajudou na discussão sobre representatividade.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+				
+	<!--TA CHEGANDO-->
+				
+	<section id='chegando'>
+	<div class='container'>
+	<div class='row'>
+	<div class='col-md-12'>
+		<h2 class='main-title'>Tá chegando</h2>
+	</div>
+	<div class='col-md-5'>
+		<h3 class='font-weight-bold mt-3'>Mulher Maravilha - 1984</h3>
+			<p class='text-justify'><b>SINOPSE:</b> Mulher-Maravilha 1984 revela que a heroína vai ter que lidar com uma conspiração mundial causada por Maxwell Lord, vilão interpretado por Pedro Pascal: "Como arqueóloga, a Diana que trabalha no museu Smithsonian, é uma Mulher-Maravilha que tem super poderes extraordinários, podendo ser a heroína mais forte do mundo. Em 1984, a Mulher-Maravilha está em um desesperador perigo mortal na face de uma enorme conspiração do empresário Max, que canta alto para satisfazer os desejos das pessoas, e uma inimiga misteriosa, a Mulher-Leopardo (Kristen Wiig). A Mulher Maravilha pode impedir o colapso do mundo sozinha?" 
+			</p>
+	</div>
+	<div class='col-md-7 w-100'>
+		<iframe class='trailer' width="100%" height="315" src="https://www.youtube.com/embed/Y5BejyusI2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	</div>	
+	</div>
+	</section>
+	</div>	
+				
+	<!--QUIZ-->
+				
+	<section class='quiz mt-3'>
+	<div class='container-fluid'>
+	<div class='row'>
+	<div class='col-12'>
+		<h2 class='main-title'>QUIZ</h2>
+	</div>
+	<div class='col-md-6'>
+		<img class='img-quiz w-100' src='img/chris1.jpg'>
+	</div>
+	<div class='col-md-6 quiz-two'>
+	<div>
+		<img class='w-20' src='img/chris2.png'>
+	</div>
+		<p class='text-justify'>Eaí carinha que mora logo ali, como vai? Tem um dolár aí? Se não tiver não tem problema nenhum. Só que você vai ter passar por um teste e tirar uma nota boa para eu te isentar. Sabe comé né? Tá lançado o desafio, só não pode amarelar!
+		</p>
+			<a class='btn btn-danger mr-auto' href='quiz.html' target='_blank'>Fazer QUIZ</a>
+	</div>
+	</div>
+	</div>
+	</section>
+				
+	<!--NEWSLETTER-->
+				
+	<section class='newsletter'>
+	<div class='container'>
+	<div class='row'>
+	<div class='col-md-12'>
+		<h2 class='main-title'>Newsletter</h2>
+	</div>
+	<div class='col-md-12 newsletter-form'>
+		<p>Se increva em nossa newsletter e receba novidades em primeira mão.</p>
+			<form method='post'>
+				<input type='email' placeholder='Digite seu email' class='email'>
+				<input type='submit' value='Enviar' class='btn-primary submit'>
+			</form>
+	</div>
+	</div>
+	</div>	
+	</section>
+		
+	<!--RODAPÉ-->
+		
+	<footer class='rodape'>
+	<div class='container'>
+	<div class='row'>
+	<div class='col-md-12 box-rodape'>
+	<div class='mt-3 social-list'>
+		<ul>
+			<li><a href='#'><i class='fab fa-facebook'></i></a></li>
+			<li><a href='#'><i class='fab fa-instagram'></i></a></li>
+			<li><a href='#'><i class='fab fa-twitter'></i></a></li>
+		</ul>
+	</div>
+	<p class='mt-3'>Raflix&copy; 2020. Todos os direitos reservados.</p>
+	</div>
+	</div>
+	</div>	
+	</footer>	
+	<a href='#inicio' id='link-topo'><i class='fas fa-arrow-up'></i></a>
+</body>
+</html>
